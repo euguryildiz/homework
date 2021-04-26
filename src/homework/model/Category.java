@@ -4,9 +4,12 @@ package homework.model;
 
 public class Category {
 	
+	int Id;
+	String Name;
+	
 	public Category(int id, String name) {
-		this.Id = id;
-		this.Name = name;
+		this.setId(id);;
+		this.setName(name);
 	}
 	
 
@@ -23,7 +26,6 @@ public class Category {
 		Name = name;
 	}
 	
-	int Id;
-	String Name;
+
 	
 }

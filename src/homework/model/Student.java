@@ -2,12 +2,16 @@ package homework.model;
 
 public class Student {
 
+	int Id;
+	String Name;
+	String Surname;
+	String Email;
 	
 	public Student(int id, String name, String surname, String email) {
-		this.Id = id;
-		this.Name = name;
-		this.Surname = surname;
-		this.Email = email;
+		this.setId(id);
+		this.setName(name);
+		this.setSurname(surname);
+		this.setEmail(email);
 		
 	}
 	
@@ -36,8 +40,5 @@ public class Student {
 		Email = email;
 	}
 
-	int Id;
-	String Name;
-	String Surname;
-	String Email;
+
 }

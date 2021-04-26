@@ -2,11 +2,14 @@ package homework.model;
 
 public class Lesson {
 	
+	int Id;
+	int CategoryId;
+	String Name;
 	
 	public Lesson(int id, int categoryId, String name) {
-		this.Id = id;
-		this.CategoryId = categoryId;
-		this.Name = name;
+		this.setId(id);
+		this.setCategoryId(categoryId);
+		this.setName(name);
 	}
 	
 
@@ -30,7 +33,4 @@ public class Lesson {
 	}
 
 
-	int Id;
-	int CategoryId;
-	String Name;
 }
