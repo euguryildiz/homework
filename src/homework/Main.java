@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Student student = new Student(1, "Uður", "Yýldýz", "mail@mail.com");
+		Student student = new Student(1, "Uï¿½ur", "Yï¿½ldï¿½z", "mail1@mail.com");
 		
 		StudentService studentService = new StudentService();
 		
